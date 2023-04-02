@@ -103,3 +103,88 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1680433031649	geckodriver	INFO	Listening on 127.0.0.1:51063
+1680433034822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51064" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileBgYTDG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680433036630	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680433036642	Marionette	INFO	Listening on port 51076
+Read port: 51076
+WebDriver BiDi listening on ws://127.0.0.1:51064
+1680433037141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileBgYTDG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51064/devtools/browser/8520ae41-2ac6-428d-819b-e0d716d94d26
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/SignUp?biz=false&cc=BD&dsh=S655134969%3A1680433043743383&flowEntry=ServiceLogin&flowName=GlifWebSignIn&ifkv=AQMjQ7SfBx4v3uJ-J06DUxKnfXP7rg6cqXM40DsFcq8DKQ4gWqtvMPf0LP0EzhynXEwmn6_CptRPug line 2 > eval line 4150 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/signup/v2?biz=false&cc=BD&dsh=S655134969%3A1680433043743383&flowEntry=SignUp&flowName=GlifWebSignIn&ifkv=AQMjQ7RaLnryEZUQTiW5en-Z9Mg6lmzMem6FdO6VUAWptZt5beOL2oyVCHQ4-OTvOiii8Krxb7chKA&hl=en line 2 > eval line 1897 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S-251179561%3A1680433203828645&hl=en&ifkv=AQMjQ7Q7eAdT6B9RyNr5iJQQNk5ZAF5Xjktk_4tb4_QBzd9XTd8lrtu5acUMdN-VtSdhNLYAnAGZ2g&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 204 > injectedScript line 2 > eval line 3512 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?dsh=S-251179561%3A1680433203828645&hl=en&ifkv=AQMjQ7Q7eAdT6B9RyNr5iJQQNk5ZAF5Xjktk_4tb4_QBzd9XTd8lrtu5acUMdN-VtSdhNLYAnAGZ2g&flowName=GlifWebSignIn&flowEntry=ServiceLogin line 204 > injectedScript line 2 > eval line 3512 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/SignUp?biz=false&cc=BD&dsh=S-251179561%3A1680433203828645&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=AQMjQ7Q7eAdT6B9RyNr5iJQQNk5ZAF5Xjktk_4tb4_QBzd9XTd8lrtu5acUMdN-VtSdhNLYAnAGZ2g line 2 > eval line 1679 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://myaccount.google.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript warning: https://accounts.google.com/InteractiveLogin?elo=1&ifkv=AQMjQ7Qv2ZtiiywpniFq0xFlhayUqriMYWRpO7f9wmIUPA_Qdw6xLyPPu6de3K1hZYTpDkc4wRsseA line 2 > eval line 2965 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/InteractiveLogin?elo=1&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=en&ifkv=AQMjQ7TpbWcl7MqafDiUENkk27jmxf2DLAl3h3X4vZ-7RjU-yIlItayKFcWlt5t5r7y-UgwIIqO90g line 2 > eval line 5888 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680433399577	Marionette	INFO	Stopped listening on port 51076
+Dynamically enable window occlusion 1
+1680433403628	geckodriver	INFO	Listening on 127.0.0.1:51177
+1680433406636	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51178" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileOERb5M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680433407849	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680433407860	Marionette	INFO	Listening on port 51192
+Read port: 51192
+WebDriver BiDi listening on ws://127.0.0.1:51178
+1680433408273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileOERb5M\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51178/devtools/browser/700d8f7e-e2b8-4e3f-9470-ee2cb1e9badd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1680433451022	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hMk8RYfShm1WO-i6nufLdZfHD_Dal5FkV6wggQWjY74.js line 2 > eval line 684 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1680433474325	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1680433478676	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1680433478714	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1680433479687	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1680433512944	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1680433517278	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hMk8RYfShm1WO-i6nufLdZfHD_Dal5FkV6wggQWjY74.js line 2 > eval line 3893 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/hMk8RYfShm1WO-i6nufLdZfHD_Dal5FkV6wggQWjY74.js line 2 > eval line 3965 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1680433607607	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1680433617434	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1680433620465	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1680433622665	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+JavaScript error: https://csdnimg.cn/release/devpress/public/js/chunk/organization/post/index.52b57e85.js, line 1: TypeError: e is undefined
+JavaScript error: https://csdnimg.cn/release/devpress/public/js/chunk/organization/post/index.52b57e85.js, line 1: TypeError: e is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1680434240125	Marionette	INFO	Stopped listening on port 51192
+Dynamically enable window occlusion 1
+[Parent 12196, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 12196, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+[Parent 12196, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:583
