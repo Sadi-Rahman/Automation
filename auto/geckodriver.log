@@ -653,3 +653,20 @@ Deferred/then/a/</c<@https://www.tutorialspoint.com/market/public/assets/js/bs/j
 1680613809825	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1680613962297	Marionette	INFO	Stopped listening on port 52770
 Dynamically enable window occlusion 1
+1680686800909	geckodriver	INFO	Listening on 127.0.0.1:54302
+1680686804158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54303" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileSsMy6V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680686807354	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680686807393	Marionette	INFO	Listening on port 54315
+Read port: 54315
+WebDriver BiDi listening on ws://127.0.0.1:54303
+1680686808217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileSsMy6V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54303/devtools/browser/e6c6a60a-7ad3-4bb5-91d2-bd0cf00a7b36
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.tutorialspoint.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.tutorialspoint.com."
+1680686859460	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1680686906951	Marionette	INFO	Stopped listening on port 54315
+Dynamically enable window occlusion 1
